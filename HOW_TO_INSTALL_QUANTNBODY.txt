@@ -1,0 +1,17 @@
+# Install conda
+# https://conda.io/projects/conda/en/latest/user-guide/install/macos.html
+
+# Create a conda environment
+conda create -n quant
+conda activate quant
+
+conda install -c psi4 psi4
+conda install pip
+conda install numpy
+pip install matplotlib
+
+git clone -b Replacing_LIL_MATRIX https://github.com/SYalouz/QuantNBody.git
+cd QuantNBody
+python -m pip install -e .
+
+conda install notebook
