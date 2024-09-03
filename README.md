@@ -11,6 +11,7 @@ The .py files in /bulk_codes are bulkier versions (for Spyder, e.g.) of the tuto
 
 
 # To install QuantNBody and jupyter-notebook
+```
 conda create -n quant
 conda activate quant
 
@@ -24,3 +25,4 @@ cd QuantNBody
 python -m pip install -e .
 
 conda install notebook
+```
