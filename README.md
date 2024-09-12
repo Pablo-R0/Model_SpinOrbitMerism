@@ -1,6 +1,6 @@
 # SpinOrbitMerism
 
-This repository contains two jupyter notebooks (.ipynb) that explain how to reproduce the data and the figures in the article: "Competition between Spinmerism and Spin-orbit
+This repository contains two jupyter notebooks (.ipynb) that explain how to reproduce the data and the figures in the article: "Interplay between Spinmerism and Spin-orbit
 for a d2 Metal Ion in An Open-Shell Ligand Field" of P. Roseiro, A. Shah, S. Yalouz and V. Robert.
 
 It needs the package QuantNBody (https://github.com/SYalouz/QuantNBody.git). The HOW_TO_INSTALL_QUANTNBODY.txt file guides the installation.
